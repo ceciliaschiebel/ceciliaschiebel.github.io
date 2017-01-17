@@ -1,0 +1,80 @@
+/*!
+ * resume
+ */
+body {
+  background: #EEEEEE;
+  font-family: 'Open Sans', sans-serif;
+  padding: 40px 0;
+  color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: #00a0c1;
+}
+a:hover,
+a:focus {
+  color: #00a0c1;
+  text-decoration: underline;
+}
+#content-left {
+  max-width: 300px;
+}
+#content-left .list-group-item {
+  border-radius: 0px;
+}
+#content-left a:hover {
+  background-color: #00a0c1;
+  color: white;
+}
+#content-right {
+  background-color: white;
+  padding: 30px;
+}
+.addMarginBottom {
+  margin-bottom: 40px;
+}
+.divider {
+  stroke-width: 4.3;
+  stroke: #00a0c1;
+  fill: none;
+}
+.marginContent {
+  padding: 0 30px;
+}
+.workBlock {
+  margin-top: 40px;
+}
+.workBlock:first-child {
+  margin-top: 0;
+}
+.workDate {
+  float: right;
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  #content-right {
+    padding: 20px;
+  }
+  .marginContent {
+    padding: 0 15px;
+  }
+  .workDate {
+    float: none;
+  }
+}
+/* Small devices (tablets, 768px and less) */
+@media (max-width: 991px) {
+  #content-left {
+    display: block;
+    margin: auto;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
