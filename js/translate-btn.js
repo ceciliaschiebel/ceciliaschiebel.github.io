@@ -27,7 +27,7 @@
     datePoffly: 'July 2012 – present',
     descriptionPoffly: `Poffly is a venture where we design and manufacture cases and bags to protect electronic devices.
         <br>
-        When I began at Poffly had the opportunity to learn about managing a business, customer interaction and some marketing. I'm currently working in:`,
+        By creating Poffly I had the opportunity to learn about managing a business, customer interaction and some marketing. I'm currently working in:`,
     highlightsPoffly: `<li> Management and accounting </li>
         <li> Customer service </li>
         <li> Identity and Product Design </li>
