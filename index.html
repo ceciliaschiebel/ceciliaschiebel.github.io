@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cecilia Schiebel - Online CV</title>
+
+    <link rel="icon" href="/assets/img/favicon.ico">
 
     <base href="/">
 
@@ -52,11 +54,29 @@
             </div>
             <div id="content-right" class="col-xs-12 col-md-9">
                 <!--name-->
-                <h1 class="addMarginBottom">Cecilia Schiebel</h1>
+                
+                <div class="row">
+                    <div class="col-xs-12 col-md-2 col-md-push-10">
+                        
+                        <div class="btn-group pull-right" role="group">
+                            <button id="btnEng" type="button" class="btn btn-default active">
+                                <img src="/assets/img/flag_us.png" alt="English">
+                            </button>
+                            <button id="btnEsp" type="button" class="btn btn-default">
+                                <img src="/assets/img/flag_ar.png" alt="Spanish">
+                            </button>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-10 col-md-pull-2">
+                        <h1 class="addMarginBottom">Cecilia Schiebel</h1>
+                    </div>
+                </div>
+                
                 
                 <!--acerca-->
                 <section class="addMarginBottom">
-                    <h4>Acerca de mi</h4>
+                    <h4 id="aboutTitle">Summary</h4>
                     <div class="divider">
                         <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="20" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
                             <path d="M1.357,12.26 10.807,2.81 20.328,12.332
@@ -64,19 +84,19 @@
                         </svg>
                     </div>
                     <div class="marginContent">
-                        <p>
-                            Soy Cecilia Schiebel, frontend developer, web designer y emprendedora.
+                        <p id="aboutContent">
+                            I'm Cecilia Schiebel, frontend developer, web designer and entrepreneur.
                             <br>
-                            Desde chica me gusta diseñar y crear cosas nuevas, siempre pensando en como las personas van a usarlas. Por eso cree Poffly y Mergus mientras estudiaba informática, y trabajé en distintos proyectos de software con Meg y Elvex.
+                            Since childhood I like to design and create new things, always thinking about how people are going to use them. That's why I started Poffly and Mergus while studying computer science, and I worked on different software projects with Meg and Elvex.
                             <br>
-                            Siempre estoy abierta a trabajar en nuevos proyectos donde pueda aportar valor y aprender de la experiencia y conocimientos de los demás.
+                            I am always open to new projects where I can add value and learn from the expertise of other people.
                         </p>
                     </div>
                 </section>
                 
                 <!--conocimientos-->
                 <section class="addMarginBottom">
-                    <h4>Conocimientos</h4>
+                    <h4 id="skillsTitle">Technical Skills</h4>
                     <div class="divider">
                         <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="20" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
                             <path d="M1.357,12.26 10.807,2.81 20.328,12.332
@@ -85,27 +105,27 @@
                     </div>
                     <div class="marginContent">
                         <div>
-                            <h5>Tecnologías</h5>
+                            <h5 id="technologiesSubt">Technologies</h5>
                             <p class="marginContent">
-                                <strong>Avanzado:&nbsp</strong>
+                                <strong id="advancedHead">Advanced:&nbsp</strong>
                                 HTML, CSS, JavaScript, Bootstrap, LESS
                             </p>
                             <p class="marginContent">
-                                <strong>Intermedio:&nbsp</strong>
+                                <strong id="intermediateHead">Intermediate:&nbsp</strong>
                                 AngularJS, JQuery, Python, Git, Sass
                             </p>
                             <p class="marginContent">
-                                <strong>Principiante:&nbsp</strong>
+                                <strong id="beginnerHead">Beginner:&nbsp</strong>
                                 PHP
                             </p>
                         </div>
                         <div>
-                            <h5>Conocimientos relacionados</h5>
-                            <p class="marginContent">Scalable Vector Graphics (SVG), UI/UX Design, Maquetación, Responsive Design</p>
+                            <h5 id="realtedSubt">Related skills</h5>
+                            <p id="realtedBody" class="marginContent">Scalable Vector Graphics (SVG), UI/UX Design, Interface Layout, Responsive Design</p>
                         </div>
                         <div>
-                            <h5>Idiomas</h5>
-                            <p class="marginContent">Español (nativo), Inglés (intermedio-avanzado)</p>
+                            <h5 id="languagesSubt">Languages</h5>
+                            <p id="languagesBody" class="marginContent">Spanish (native), English (intermediate-advanced)</p>
 
                         </div>
                     </div>
@@ -113,7 +133,7 @@
                 
                 <!--experiencia-->
                 <section class="addMarginBottom">
-                    <h4>Experiencia</h4>
+                    <h4 id="experienceTitle">Experience</h4>
                     <div class="divider">
                         <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="20" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
                             <path d="M1.357,12.26 10.807,2.81 20.328,12.332
@@ -124,86 +144,86 @@
                         <div class="workBlock">
                             <p>
                                 <strong>Frontend Developer, Founder</strong>
-                                <small class="workDate">Noviembre de 2015 – actualidad</small>
+                                <small id="dateMergus" class="workDate">November 2015 – present</small>
                                 <br>
                                 Mergus Design
                                 <br>
                                 <a href="http://mergus.design/" target="_blank">http://mergus.design/</a>
                             </p>
-                            <p>
-                                En Mergus Design nos dedicamos a brindar servicios de desarrollo, diseño e ilustración, para proyectos digitales.
+                            <p id="descriptionMergus">
+                                In Mergus Design we are dedicated to provide development, design and illustration services for digital projects.
                                 <br>
-                                Actualmente trabajo en:
+                                I'm currently working in:
                             </p>
-                            <ul>
-                                <li>Desarrollo de aplicaciones web</li>
-                                <li>Gestión y contabilidad</li>
-                                <li>Consultoría y atención a clientes</li>
-                                <li>Diseño UI/UX responsive con Bootstrap 3, HTML5</li>
-                                <li>Animación Web SVG con JS, CSS3</li>
-                                <li>Creación de themes LESS y Sass</li>
+                            <ul id="highlightsMergus">
+                                <li> Web Application Development </li>
+                                <li> Management and accounting </li>
+                                <li> Consulting and customer service </li>
+                                <li> Responsive UI/UX design with Bootstrap 3, HTML5 </li>
+                                <li> SVG Web Animation with JS, CSS3 </li>
+                                <li> Creating LESS and Sass themes </li>
                             </ul>
                         </div>
                         <div class="workBlock">
                             <p>
                                 <strong>Graphic and Product Designer, Co-founder</strong>
-                                <small class="workDate">Julio de 2012  – actualidad</small>
+                                <small id="datePoffly" class="workDate">July 2012 – present</small>
                                 <br>
                                 Poffly
                                 <br>
                                 <a href="http://www.poffly.com/" target="_blank">http://www.poffly.com/</a>
                             </p>
-                            <p>
-                                Poffly es un emprendimiento donde diseñamos y fabricamos fundas y bolsos para proteger dispositivos electrónicos.
+                            <p id="descriptionPoffly">
+                                Poffly is a venture where we design and manufacture cases and bags to protect electronic devices.
                                 <br>
-                                Al comenzar Poffly tuve la oportunidad de aprender sobre la gestión de un negocio, la interacción con clientes y algo de marketing. Actualmente trabajo en:
+                                When I began at Poffly had the opportunity to learn about managing a business, customer interaction and some marketing. I'm currently working in:
                             </p>
-                            <ul class="highlights">
-                                <li>Gestión y contabilidad</li>
-                                <li>Atención a clientes</li>
-                                <li>Diseño de identidad y productos</li>
-                                <li>Publicidad</li>
+                            <ul id="highlightsPoffly">
+                                <li> Management and accounting </li>
+                                <li> Customer service </li>
+                                <li> Identity and Product Design </li>
+                                <li> Advertising </li>
                             </ul>
                         </div>
                         <div class="workBlock">
                             <p>
                                 <strong>Frontend Developer</strong>
-                                <small class="workDate">Agosto de 2011 – actualidad</small>
+                                <small id="dateElvex" class="workDate">August 2011 – present</small>
                                 <br>
                                 Cooperativa de trabajo ELVEX Ltda.
                                 <br>
                                 <a href="http://www.elvex.org.ar/2015/" target="_blank">http://www.elvex.org.ar/</a>
                             </p>
-                            <p>
-                                Comencé a colaborar en ELVEX con trabajos esporádicos, desde mediados de 2011, junto al equipo de Informática MEG. Después del cierre de MEG seguí trabajando en algunos proyectos con ELVEX, hasta la actualidad.
+                            <p id="descriptionElvex">
+                                I began to collaborate in ELVEX with sporadic works, since mid-2011, with Informática MEG's team. After the closing of MEG I continued working on some projects with ELVEX, until today.
                                 <br>
-                                Actualmente trabajo en:
+                                I'm currently working at:
                             </p>
-                            <ul class="highlights">
-                                <li>Desarrollo de sistema de gestión con AngularJS, Twig y JS</li>
-                                <li>Maquetación de interfaces con Bootstrap 3, HTML5 y CSS3</li>
+                            <ul id="highlightsElvex">
+                                <li> Development of management system with AngularJS, Twig and JS </li>
+                                <li> Interface layout with Bootstrap 3, HTML5 and CSS3 </li>
                             </ul>
                         </div>
                         <div class="workBlock">
                             <p>
                                 <strong>Web Designer, Web Developer</strong>
-                                <small class="workDate">Febrero de 2011 – Marzo de 2015</small>
+                                <small id="dateMeg" class="workDate">February 2011 – March 2015</small>
                                 <br>
                                 Informática MEG
                                 <br>
                                 <a href="http://www.informaticameg.com/" target="_blank">http://www.informaticameg.com/</a>
                             </p>
-                            <p>
-                                Mi trabajo con Informática Meg comenzó principalmente con tareas de diseño, al poco tiempo empecé a realizar la maquetación de sitios y aplicaciones, para luego integrarme al equipo como developer.
+                            <p id="descriptionMeg">
+                                My work with Informática Meg began mainly with design tasks, soon I started to make the layout of sites and applications, and then I joined the team as a developer.
                                 <br>
-                                Entre los trabajos que realicé se encuentran:
+                                Among the works I did are included:
                             </p>
-                            <ul class="highlights">
-                                <li>Creación de logos e iconos para aplicaciones</li>
-                                <li>Diseño y creación del sitio Web de la empresa</li>
-                                <li>Maquetación de sitios y aplicaciones con Bootstrap, Jade y Stylus</li>
-                                <li>Desarrollo frontend de aplicaciones de gestión</li>
-                                <li>UI/UX design, wireframing</li>
+                            <ul id="highlightsMeg">
+                                <li> Creating logos and icons for applications </li>
+                                <li> Designing and creating the company's website </li>
+                                <li> Site and application layout with Bootstrap, Jade and Stylus </li>
+                                <li> Front-end development of management applications </li>
+                                <li> UI/UX design, wireframing </li>
                             </ul>
                         </div>
                     </div>
@@ -211,7 +231,7 @@
                 
                 <!--estudio-->
                 <section class="addMarginBottom">
-                    <h4>Estudios</h4>
+                    <h4 id="educationTitle">Education</h4>
                     <div class="divider">
                         <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="20" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
                             <path d="M1.357,12.26 10.807,2.81 20.328,12.332
@@ -220,17 +240,17 @@
                     </div>
                     <div class="marginContent">
                         <h5>Universidad Nacional de Misiones</h5>
-                        <p>
-                            Alumno avanzado – Analista en Sistemas de Computación
+                        <p id="educationBody">
+                            Advanced student – Analista en Sistemas de Computación
                             <br>
-                            Alumno avanzado – Licenciatura en Sistemas de Información
+                            Advanced student – Licenciatura en Sistemas de Información
                         </p>
                     </div>
                 </section>
             </div>
         </div>
-
     </div>
+    <script src="/js/translate-btn.js"></script>
 </body>
 
 </html>
