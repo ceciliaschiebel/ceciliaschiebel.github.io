@@ -25,13 +25,14 @@
         <li> Creating LESS and Sass themes </li>`,
 
     datePoffly: 'July 2012 – present',
-    descriptionPoffly: `Poffly is a venture where we design and manufacture cases and bags to protect electronic devices.
-        <br>
-        By creating Poffly I had the opportunity to learn about managing a business, customer interaction and some marketing. I'm currently working in:`,
-    highlightsPoffly: `<li> Management and accounting </li>
-        <li> Customer service </li>
-        <li> Identity and Product Design </li>
-        <li> Advertising </li>`,
+    descriptionPoffly: `In Poffly we create cases and bags made to protect all kinds of gadgets.
+    <br>
+    I started the project while studying in the university, and it gave me the opportunity to learn about administration, advertising, customer service and meet so many entrepreneurs.
+    <br>
+    Our goal was to create the best brand and products as possible, so today I can say that I am glad with the results. We also receive excellent reviews from our customers, which are available on our <a href="https://www.facebook.com/pg/poffly/reviews/" target="_blank">facebook page</a>.
+    <br>
+    Due to work we are maintaining the project passively, I am currently working on:`,
+    highlightsPoffly: `<li> Project maintenance </li>`,
 
     dateElvex: 'August 2011 – present',
     descriptionElvex: `I began to collaborate in ELVEX with sporadic works, since mid-2011, with Informática MEG's team. After the closing of MEG I continued working on some projects with ELVEX, until today.
@@ -86,13 +87,14 @@
     <li>Creación de themes LESS y Sass</li>`,
 
     datePoffly: 'Julio de 2012  – actualidad',
-    descriptionPoffly: `Poffly es un emprendimiento donde diseñamos y fabricamos fundas y bolsos para proteger dispositivos electrónicos.
+    descriptionPoffly: `En Poffly creamos fundas y bolsos hechos para proteger todo tipo de gadgets.
     <br>
-    Al comenzar Poffly tuve la oportunidad de aprender sobre la gestión de un negocio, la interacción con clientes y algo de marketing. Actualmente trabajo en:`,
-    highlightsPoffly: `<li>Gestión y contabilidad</li>
-    <li>Atención a clientes</li>
-    <li>Diseño de identidad y productos</li>
-    <li>Publicidad</li>`,
+    Comencé el proyecto mientras estudiaba en la universidad, y me dio la oportunidad de aprender sobre administración, publicidad, atención al cliente y conocer a muchos emprendedores.
+    <br>
+    Nuestro objetivo era crear la mejor marca y productos posible, así que puedo decir que estoy orgullosa de los resultados. También recibimos buenas críticas de nuestros clientes, que están disponibles en nuestra <a href="https://www.facebook.com/pg/poffly/reviews/" target="_blank">página</a>.
+    <br>
+    Debido al trabajo estamos manteniendo el proyecto pasivamente, actualmente trabajo en:`,
+    highlightsPoffly: `<li>Mantenimiento del proyecto</li>`,
 
     dateElvex: 'Agosto de 2011 – actualidad',
     descriptionElvex: `Comencé a colaborar en ELVEX con trabajos esporádicos, desde mediados de 2011, junto al equipo de Informática MEG. Después del cierre de MEG seguí trabajando en algunos proyectos con ELVEX, hasta la actualidad.
