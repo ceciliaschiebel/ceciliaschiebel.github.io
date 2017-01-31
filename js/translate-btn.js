@@ -2,6 +2,7 @@
   'use strict'
 
   var engTranslation = {
+    tagRelocation: '&nbsp Willing to relocate',
     aboutTitle: 'Summary',
     aboutContent: "I'm Cecilia Schiebel, frontend developer, web designer and entrepreneur.<br>Since childhood I like to design and create new things, always thinking about how people are going to use them. That's why I started Poffly and Mergus while studying computer science, and I worked on different software projects with Meg and Elvex.<br>I am always open to new projects where I can add value and learn from the expertise of other people.",
     skillsTitle: 'Technical Skills',
@@ -58,6 +59,7 @@
   }
 
   var spaTranslation = {
+    tagRelocation: '&nbsp Disponibilidad de cambio de residencia',
     aboutTitle: 'Acerca de mi',
     aboutContent: `Soy Cecilia Schiebel, frontend developer, web designer y emprendedora.
     <br>
