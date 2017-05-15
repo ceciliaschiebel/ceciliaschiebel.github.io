@@ -11,7 +11,7 @@
     intermediateHead: 'Intermediate:&nbsp',
     beginnerHead: 'Beginner:&nbsp',
     realtedSubt: 'Related skills',
-    realtedBody: 'Scalable Vector Graphics (SVG), UI/UX Design, Interface Layout, Responsive Design',
+    realtedBody: 'NPM, Bower, Yarn, Scalable Vector Graphics (SVG), UI/UX Design, Interface Layout, Responsive Design',
     languagesSubt: 'Languages',
     languagesBody: 'Spanish (native), English (intermediate-advanced)',
 
@@ -72,7 +72,7 @@
     intermediateHead: 'Intermedio:&nbsp',
     beginnerHead: 'Principiante:&nbsp',
     realtedSubt: 'Conocimientos relacionados',
-    realtedBody: 'Scalable Vector Graphics (SVG), UI/UX Design, Maquetación, Responsive Design',
+    realtedBody: 'NPM, Bower, Yarn, Scalable Vector Graphics (SVG), UI/UX Design, Maquetación, Responsive Design',
     languagesSubt: 'Idiomas',
     languagesBody: 'Español (nativo), Inglés (intermedio-avanzado)',
 
