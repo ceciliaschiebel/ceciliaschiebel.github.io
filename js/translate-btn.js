@@ -126,9 +126,12 @@
   var btnEsp = document.getElementById('btnEsp')
 
   var toEnglish = function () {
+    // document.getElementById('tagRelocation').style.opacity = '0'
+    // setTimeout(function () { document.getElementById('tagRelocation').style.opacity = '1' }, 1000)
     if (btnEsp.classList.contains('active')) {
       btnEng.classList.add('active')
       btnEsp.classList.remove('active')
+
 
       Object.keys(engTranslation).forEach(function (key) {
         var value = engTranslation[key]

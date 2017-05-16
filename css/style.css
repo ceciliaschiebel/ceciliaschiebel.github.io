@@ -2,7 +2,9 @@
  * resume
  */
 body {
-  background: #EEEEEE;
+  background: #d8dfe2;
+  background: -webkit-linear-gradient(to bottom, #d8dfe2, #283048);
+  background: linear-gradient(to bottom, #d8dfe2, #283048);
   font-family: 'Open Sans', sans-serif;
   padding: 40px 0;
   color: #333;
@@ -25,13 +27,54 @@ a:focus {
 }
 #content-left {
   max-width: 300px;
+  margin-bottom: 20px;
 }
-#content-left .list-group-item {
+#content-left .list-group {
+  margin-bottom: 0;
+}
+#content-left .list-group .list-group-item {
   border-radius: 0px;
 }
-#content-left a:hover {
+#content-left .list-group .list-group-item .fa {
+  min-width: 18px;
+  text-align: center;
+  font-size: 1.3em;
+}
+#content-left .list-group .list-group-item .fa.fa-mobile {
+  font-size: 1.3em;
+}
+#content-left .list-group a:hover {
   background-color: #00a0c1;
   color: white;
+}
+#content-left .list-group #tagRelocation {
+  -webkit-transition: all 1.4s ease-in-out;
+  -o-transition: all 1.4s ease-in-out;
+  -moz-transition: all 1.4s ease-in-out;
+}
+#content-left .network-links {
+  box-sizing: border-box;
+  background-color: #00add0;
+  color: white;
+  padding: 15px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content-left .network-links a {
+  color: white;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+#content-left .network-links a .fa {
+  font-size: 40px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+#content-left .network-links a:hover .fa {
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+#content-left .network-links a:hover .fa::before {
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 3px 2px rgba(0, 0, 0, 0.22);
 }
 #content-right {
   background-color: white;
@@ -78,3 +121,17 @@ a:focus {
 }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+.pulse {
+  animation-name: pulse;
+}
